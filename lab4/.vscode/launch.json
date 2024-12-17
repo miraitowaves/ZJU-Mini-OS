@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+          "name": "kernel-debug",  // 调试名称
+          "type": "cppdbg",
+          "request": "launch",
+          "miDebuggerServerAddress": "localhost:4567",
+          "program": "/mnt/d/OS/src/lab4/vmlinux",
+          "args": [],
+          "stopAtEntry": true,
+          "externalConsole": false,
+          "cwd": "/mnt/d/OS/",
+          "environment": [],
+          "logging": {
+            "engineLogging": false
+          },
+          "MIMode": "gdb",
+          "setupCommands": [
+            {
+              "description": "Enable pretty-printing for gdb",
+              "text": "-enable-pretty-printing",
+              "ignoreFailures": true
+            }
+          ],
+          "miDebuggerPath": "/usr/bin/gdb-multiarch",
+      },
+    ]
+  }
