@@ -6,7 +6,7 @@
           "type": "cppdbg",
           "request": "launch",
           "miDebuggerServerAddress": "localhost:4567",
-          "program": "/mnt/d/ZJU-Mini-OS/lab6/vmlinux",
+          "program": "/mnt/d/ZJU-Mini-OS/bonus/vmlinux",
           "args": [],
           "stopAtEntry": true,
           "externalConsole": false,
